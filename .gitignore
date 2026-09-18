@@ -1,0 +1,17 @@
+# Generated outputs (do not commit)
+generated/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / personal data
+*.env
+secrets.yml
