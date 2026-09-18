@@ -1,5 +1,5 @@
-# Generated outputs (do not commit)
-generated/
+# Generated outputs
+# generated/  -- tracked intentionally for GitHub Pages
 
 # Python
 __pycache__/
