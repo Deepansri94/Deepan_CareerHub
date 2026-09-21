@@ -3,12 +3,15 @@ experience:
   - id: capgemini-disney-travelbox
 
     employer: Capgemini Technology Services India Limited
+  
     client: Disney
     project: Travel Box
+    pathway_label: AWS Application & Release Operations
 
     career_title: Senior Application Support Engineer
 
     engagement_role: Release & Application Operations Coordinator
+    
 
     display_title: >
       Senior Application Support Engineer |
@@ -148,6 +151,7 @@ experience:
     employer: Capgemini Technology Services India Limited
     client: BMW
     project: BMW Einkauf, Purchasing
+    pathway_label: Application Support Leadership & Automation
 
     career_title: Application Support Lead
 
@@ -275,6 +279,7 @@ experience:
     employer: Capgemini Technology Services India Limited
     client: BMW
     project: BMW Teilequalität, Quality
+    pathway_label: L2 Application & Integration Support
 
     career_title: Application Support Engineer
 
@@ -368,8 +373,10 @@ experience:
     employer: Infosys BPM Limited
     client: Veritas Technologies
     project: Order-to-Cash
+    pathway_label: Business Process & Operational Support
 
     career_title: Process Executive
+
 
     display_title: Process Executive
 
@@ -377,7 +384,7 @@ experience:
 
     employment_type: Full-time
 
-    start_date: "2016-01"
+    start_date: "2015-11"
     end_date: "2017-02"
     current: false
 

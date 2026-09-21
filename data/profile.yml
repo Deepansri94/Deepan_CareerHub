@@ -19,14 +19,14 @@ profile:
     email: Deepansri94@yahoo.com
 
     linkedin: >
-      https://www.linkedin.com/in/deepan-chakkaravarthi-6b487a172
+      https://www.linkedin.com/in/deepanchakkaravarthi-g-6b487a172/
 
     github: >
       https://github.com/Deepansri94
 
   profile_photo:
-    source_path: assets/profile-photo.jpg
-    website_path: assets/profile-photo.jpg
+    source_path: assets/Deepan_Profile.jpg
+    website_path: assets/Deepan_Profile.jpg
     alt_text: Professional profile photo of Deepanchakkaravarthi G
 
   current_employment:

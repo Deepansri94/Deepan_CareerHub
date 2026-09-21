@@ -6,4 +6,12 @@ professional_development:
       status: Training Completed
 
     - name: Agile and Scrum Fundamentals
-      status: 
+      status: Training Completed
+
+    - name: AWS Cloud Practitioner
+      status: Training Completed
+
+  working_knowledge:
+
+    - name: Lean and Six Sigma
+      status: Working Knowledge

@@ -1,5 +1,64 @@
 projects:
 
+  - id: vaultone
+
+    name: VaultOne
+
+    type: Personal Product
+
+    summary: >
+      Offline-first personal information and finance management platform
+      designed to securely manage family information, passwords,
+      documents, reminders, investments, loans, income, expenses,
+      and personal records through a unified interface.
+
+      Provides centralized visibility of personal wealth, financial
+      commitments, document storage, recurring reminders, and
+      family-related information while operating completely offline.
+      Includes Android APK packaging, local notifications, dashboard
+      analytics, purpose-based wallet tracking, investment monitoring,
+      and secure personal record management.
+
+      Built as a long-term personal product focused on privacy,
+      usability, portability, and data ownership without dependency
+      on external cloud services.
+
+    vision: >
+      Create a private, offline-first digital vault that enables
+      individuals and families to organize financial information,
+      personal documents, reminders, investments, liabilities,
+      and important records in a single secure application while
+      retaining full ownership and control of their data.
+
+    capabilities:
+      - Personal Information Management
+      - Financial Tracking
+      - Reminder Management
+      - Document Management
+      - Investment Tracking
+      - Loan Tracking
+      - Password Management
+      - Offline Data Storage
+      - Mobile Notifications
+      - Android Application Packaging
+
+    technologies:
+      - HTML
+      - CSS
+      - JavaScript
+      - GitHub
+      - GitHub Actions
+      - Android APK Build Workflow
+
+    status: Active Development
+
+    featured: true
+
+    hero_image:
+      file: assets/projects/vaultone-dashboard.png
+
+    public_url: null
+
   - id: python-build-validation-automation
 
     name: Python Build and Validation Automation
@@ -71,6 +130,6 @@ projects:
       - GitHub Pages
       - Version Control
 
-    featured: true
+    featured: false
 
     public_url: null
