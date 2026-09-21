@@ -1,5 +1,76 @@
 projects:
-  - name: ""
-    description: ""
-    tech: []
-    url: ""
+
+  - id: python-build-validation-automation
+
+    name: Python Build and Validation Automation
+
+    type: Professional Automation Initiative
+
+    parent_experience: capgemini-disney-travelbox
+
+    summary: >
+      Python-based automation developed to streamline build and
+      validation activities, reduce repetitive manual effort,
+      and improve operational repeatability.
+
+    outcome:
+      value: "60%"
+      unit: reduction in manual effort
+
+    technologies:
+      - Python
+      - Build Automation
+      - Validation Automation
+      - Operational Automation
+
+    featured: true
+
+    public_url: null
+
+  - id: selenium-operational-automation
+
+    name: Selenium Operational Automation
+
+    type: Professional Automation Initiative
+
+    parent_experience: capgemini-bmw-einkauf
+
+    summary: >
+      Selenium WebDriver automation developed for repetitive
+      reporting and operational checks.
+
+    outcome:
+      value: "30%"
+      unit: reduction in human intervention
+
+    technologies:
+      - Selenium WebDriver
+      - Selenium Automation
+      - Reporting Automation
+      - Process Automation
+
+    featured: true
+
+    public_url: null
+
+  - id: careerhub
+
+    name: CareerHub
+
+    type: Personal Portfolio
+
+    summary: >
+      GitHub-based professional portfolio and career management
+      platform using YAML-driven career data, version tracking,
+      GitHub Pages hosting, and structured profile generation.
+
+    technologies:
+      - GitHub
+      - YAML
+      - HTML
+      - GitHub Pages
+      - Version Control
+
+    featured: true
+
+    public_url: null

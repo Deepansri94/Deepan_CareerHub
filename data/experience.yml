@@ -1,8 +1,449 @@
 experience:
-  - company: ""
-    role: ""
-    start: ""
-    end: ""
-    location: ""
+
+  - id: capgemini-disney-travelbox
+
+    employer: Capgemini Technology Services India Limited
+    client: Disney
+    project: Travel Box
+
+    career_title: Senior Application Support Engineer
+
+    engagement_role: Release & Application Operations Coordinator
+
+    display_title: >
+      Senior Application Support Engineer |
+      Release & Application Operations Coordinator
+
+    official_designation: Senior Consultant
+
+    employment_type: Full-time
+
+    start_date: "2023-11"
+    end_date: null
+    current: true
+
+    location:
+      value: Bangalore, India
+      display_publicly: true
+
+    summary: >
+      Supports application and release operations for an AWS-based
+      microservices ecosystem across Disney WDW, DLR, and DLP production
+      and non-production environments. Responsibilities include incident
+      investigation, defect triage, deployment coordination, release
+      readiness, post-deployment validation, monitoring, automation,
+      and cross-team troubleshooting.
+
     responsibilities:
-      - ""
+      - >
+        Support application and release operations for 45+ AWS
+        microservices across WDW, DLR, and DLP production and
+        non-production environments.
+
+      - >
+        Troubleshoot issues identified during functional, regression,
+        unit, and performance testing by reviewing application logs,
+        service health, deployment status, configuration, data, and
+        dependent-system behavior.
+
+      - >
+        Triage JIRA defects with testing partners and development teams,
+        facilitate troubleshooting discussions and bridge calls,
+        communicate application impact and findings, and coordinate fixes
+        through validation.
+
+      - >
+        Coordinate builds and multi-environment deployments using AWS
+        ECS, ECR, EC2, Jenkins, console and Vault updates, database
+        scripts, Redis services, application services, and batch holds
+        and releases.
+
+      - >
+        Perform post-deployment health checks, stability validation,
+        service-health verification, and error analysis using Amazon
+        CloudWatch, Grafana, Splunk, and AppDynamics.
+
+      - >
+        Prepare and execute release steps for RITM and change-controlled
+        environments, support CCB and CAB approvals, maintain rollback
+        readiness, and send release-window communications.
+
+      - >
+        Coordinate platform migrations, database upgrades, Java upgrades,
+        service integration changes, and test automation initiatives
+        while engineering teams own development and implementation.
+
+      - >
+        Create and enhance Python-based build and validation automation
+        to reduce manual execution effort and improve repeatability.
+
+    achievements:
+      - id: disney-microservices-support
+        description: >
+          Supported application operations, release execution, and
+          validation for 45+ AWS microservices across WDW, DLR, and DLP
+          environments.
+
+        metric:
+          value: "45+"
+          unit: AWS microservices
+
+      - id: disney-python-automation
+        description: >
+          Reduced Build Team manual build and validation effort by 60%
+          through updated Python-based automation.
+
+        metric:
+          value: "60%"
+          unit: reduction in manual effort
+
+    technologies:
+      - Amazon Web Services
+      - AWS ECS
+      - AWS EC2
+      - AWS ECR
+      - Amazon CloudWatch
+      - Microservices
+      - REST APIs
+      - ServiceNow
+      - JIRA
+      - Jenkins
+      - Git
+      - Maven
+      - Python
+      - Selenium WebDriver
+      - AppDynamics
+      - Grafana
+      - Splunk
+      - Confluence
+      - Postman
+      - Vault
+      - Redis
+
+    capabilities:
+      - Application Support
+      - Production Support
+      - Non-Production Support
+      - Incident Investigation
+      - Defect Triage
+      - Log Analysis
+      - Release Coordination
+      - Deployment Coordination
+      - Deployment Validation
+      - Change Management Support
+      - CAB and CCB Coordination
+      - Rollback Readiness
+      - Monitoring and Observability
+      - Cross-Team Coordination
+      - Operational Automation
+
+    display:
+      public: true
+      featured: true
+      priority: 1
+
+
+  - id: capgemini-bmw-einkauf
+
+    employer: Capgemini Technology Services India Limited
+    client: BMW
+    project: BMW Einkauf, Purchasing
+
+    career_title: Application Support Lead
+
+    display_title: Application Support Lead
+
+    official_designation: null
+
+    employment_type: Full-time
+
+    start_date: "2020-06"
+    end_date: "2023-10"
+    current: false
+
+    location:
+      value: Bangalore, India
+      display_publicly: true
+
+    summary: >
+      Led L2 application support for multiple enterprise purchasing
+      applications, covering production and test-environment incident
+      investigation, application and interface-impact assessment, batch
+      monitoring, release support, environment validation, stakeholder
+      coordination, knowledge transition, and operational automation.
+
+    responsibilities:
+      - >
+        Lead L2 application support for multiple enterprise applications
+        and provide structured triage and service-restoration support.
+
+      - >
+        Investigate production and test-environment incidents, assess
+        business and interface impact, and analyze application logs,
+        workflows, and dependent-system behavior.
+
+      - >
+        Coordinate issue resolution with development teams, vendors,
+        interface owners, and subject matter experts.
+
+      - >
+        Manage 20+ application-related Informatica ETL batches and
+        support monitoring of 40+ cross-system batches connecting SAP
+        and downstream interface teams.
+
+      - >
+        Support releases through impact review, deployment coordination,
+        environment validation, customer communication, workflow
+        follow-up, and service-level tracking.
+
+      - >
+        Lead end-to-end knowledge transition of supported applications
+        and operational processes to the receiving organization.
+
+      - >
+        Automate repetitive reporting and operational checks using
+        Selenium WebDriver.
+
+    achievements:
+      - id: bmw-l2-resolution
+        description: >
+          Sustained 97% issue resolution without L3 transfer through
+          structured triage, troubleshooting, application knowledge,
+          and knowledge reuse.
+
+        metric:
+          value: "97%"
+          unit: resolution without L3 transfer
+
+      - id: bmw-etl-batch-support
+        description: >
+          Managed 20+ application-related Informatica ETL batches and
+          supported monitoring of 40+ cross-system batches.
+
+        metrics:
+          - value: "20+"
+            unit: application-related Informatica ETL batches
+
+          - value: "40+"
+            unit: cross-system batches monitored
+
+      - id: bmw-selenium-automation
+        description: >
+          Reduced human intervention by 30% through Selenium WebDriver
+          automation of repetitive reporting and operational checks.
+
+        metric:
+          value: "30%"
+          unit: reduction in human intervention
+
+    technologies:
+      - Informatica ETL
+      - SAP Integrations
+      - Selenium WebDriver
+      - BMC Remedy
+      - Application Monitoring
+      - Batch Monitoring
+      - Incident Management
+      - Problem Management
+      - Change Management
+
+    capabilities:
+      - L2 Application Support
+      - Production Support
+      - Test Environment Support
+      - Incident Investigation
+      - Issue Triage
+      - Troubleshooting
+      - Business Impact Assessment
+      - Interface Impact Assessment
+      - Batch Operations
+      - Informatica ETL Monitoring
+      - Cross-System Batch Monitoring
+      - Release Support
+      - Environment Validation
+      - Knowledge Transition
+      - Operational Automation
+
+    display:
+      public: true
+      featured: true
+      priority: 2
+
+
+  - id: capgemini-bmw-teilequalitat
+
+    employer: Capgemini Technology Services India Limited
+    client: BMW
+    project: BMW Teilequalität, Quality
+
+    career_title: Application Support Engineer
+
+    display_title: Application Support Engineer
+
+    official_designation: null
+
+    employment_type: Full-time
+
+    start_date: "2017-03"
+    end_date: "2020-06"
+    current: false
+
+    location:
+      value: Bangalore, India
+      display_publicly: true
+
+    summary: >
+      Provided L2 application support for Java-based BMW quality
+      applications integrated with mainframe and SAP systems. Support
+      activities included incident management, application and interface
+      troubleshooting, deployment support, batch monitoring, environment
+      validation, proactive monitoring, and service restoration.
+
+    supported_applications:
+      - TQP
+      - SWS
+      - LDB
+      - WIRE-NEXT
+      - ASTRAS
+      - PORTAL-M
+
+    responsibilities:
+      - >
+        Provide L2 application support across multiple BMW quality
+        applications.
+
+      - >
+        Manage incidents in BMC Remedy and investigate application,
+        batch, and interface failures.
+
+      - >
+        Coordinate escalations and maintain customer communications
+        through issue resolution.
+
+      - >
+        Support Java-based applications integrated with mainframe and
+        SAP systems.
+
+      - >
+        Perform operational troubleshooting, deployment support,
+        interface analysis, batch monitoring, environment validation,
+        root-cause analysis support, and service restoration.
+
+      - >
+        Perform proactive application and infrastructure monitoring
+        using Nagios and Grafana.
+
+    technologies:
+      - Java Applications
+      - Mainframe Integrations
+      - SAP Integrations
+      - BMC Remedy
+      - Nagios
+      - Grafana
+      - SQL
+      - Batch Monitoring
+
+    capabilities:
+      - L2 Application Support
+      - Incident Management
+      - Application Troubleshooting
+      - Interface Troubleshooting
+      - Deployment Support
+      - Batch Monitoring
+      - Environment Validation
+      - Root Cause Analysis Support
+      - Service Restoration
+      - Proactive Monitoring
+      - Customer Communication
+      - Escalation Coordination
+
+    display:
+      public: true
+      featured: true
+      priority: 3
+
+
+  - id: infosys-veritas-order-to-cash
+
+    employer: Infosys BPM Limited
+    client: Veritas Technologies
+    project: Order-to-Cash
+
+    career_title: Process Executive
+
+    display_title: Process Executive
+
+    official_designation: Process Executive
+
+    employment_type: Full-time
+
+    start_date: "2016-01"
+    end_date: "2017-02"
+    current: false
+
+    location:
+      value: Bangalore, India
+      display_publicly: true
+
+    summary: >
+      Supported global requester-ticket and order-management workflows
+      for EMEA, APJ, and AMS regions using Salesforce and Oracle R12.
+      Contributed to process documentation, user guidance, team training,
+      performance tracking, and operational improvement.
+
+    responsibilities:
+      - >
+        Resolve requester tickets through Salesforce.
+
+      - >
+        Execute IBOT, LAR, and LRR order-management workflows for EMEA,
+        APJ, and AMS regions using Oracle R12.
+
+      - >
+        Create process documentation and user manuals.
+
+      - >
+        Train new team members on operational workflows.
+
+      - >
+        Implement process-performance tracking.
+
+    achievements:
+      - id: infosys-documentation-improvement
+        description: >
+          Reduced support inquiries by 30% through process documentation
+          and user manuals.
+
+        metric:
+          value: "30%"
+          unit: reduction in support inquiries
+
+      - id: infosys-process-efficiency
+        description: >
+          Improved operational efficiency by 20% through
+          process-performance tracking.
+
+        metric:
+          value: "20%"
+          unit: improvement in operational efficiency
+
+    technologies:
+      - Salesforce
+      - Oracle R12
+      - Order Management
+
+    capabilities:
+      - Requester Support
+      - Ticket Resolution
+      - Order Management Operations
+      - Process Documentation
+      - User Documentation
+      - Knowledge Transfer
+      - Training
+      - Performance Tracking
+      - Process Improvement
+
+    display:
+      public: true
+      featured: false
+      priority: 4

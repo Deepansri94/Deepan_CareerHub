@@ -1,43 +1,135 @@
-name: Deepanchakkaravarthi G
+profile:
+  full_name: Deepanchakkaravarthi G
 
-headline: Senior Application Support Engineer
+  primary_title: Senior Application Support Engineer
 
-tagline: >
-  Application Support • Production Operations •
-  AWS Application Support • Release Coordination
+  official_designation: Senior Consultant
 
-experience_years: 10+
+  tagline: >
+    Application Support • Production Operations •
+    AWS Application Support • Release & Deployment Coordination
 
-location: Bangalore, India
+  experience_years: "10+"
 
-email: Deepansri94@yahoo.com
+  location:
+    value: Namakkal, Tamil Nadu, India
+    display_publicly: false
 
-linkedin: https://www.linkedin.com/in/deepanchakkaravarthi-g-6b487a172/
+  contact:
+    email: Deepansri94@yahoo.com
 
-photo: assets\Deepan_Profile.png
+    linkedin: >
+      https://www.linkedin.com/in/deepan-chakkaravarthi-6b487a172
 
-current_company: Capgemini
+    github: >
+      https://github.com/Deepansri94
 
-current_client: Disney TravelBox
+  profile_photo:
+    source_path: assets/profile-photo.jpg
+    website_path: assets/profile-photo.jpg
+    alt_text: Professional profile photo of Deepanchakkaravarthi G
 
-about: >
-  Senior Application Support Engineer with 10+ years of experience
-  across enterprise application support, production operations,
-  incident investigation, deployment validation, release coordination,
-  AWS environments, monitoring, and automation.
+  current_employment:
+    company: Capgemini Technology Services India Limited
+    client: Disney
+    project: Travel Box
+    career_title: Senior Application Support Engineer
+    engagement_role: Release & Application Operations Coordinator
+    official_designation: Senior Consultant
 
-career_focus:
-  - Application Support
-  - Production Support
-  - AWS Operations
-  - Release Coordination
-  - Incident Management
-  - Automation
+  about: >
+    Senior Application Support Engineer with 10+ years of enterprise
+    experience across application operations, L2 support, incident
+    investigation, release coordination, deployment validation, and
+    batch support. Experienced in troubleshooting production and
+    non-production issues, analyzing logs and service health, assessing
+    business impact, triaging defects with development and testing teams,
+    and coordinating resolution across application, infrastructure,
+    platform, and interface owners. Supports AWS-based microservices
+    across multiple environments and brings strong experience in
+    stakeholder communication, operational documentation, monitoring,
+    ETL workflows, and automation.
 
-strengths:
-  - Troubleshooting
-  - Incident Investigation
-  - Deployment Validation
-  - Stakeholder Communication
-  - Root Cause Analysis
-  - Service Monitoring
+  short_about: >
+    Senior Application Support Engineer specializing in enterprise
+    application support, production operations, AWS environments,
+    incident investigation, deployment validation, monitoring,
+    automation, and release coordination.
+
+  career_focus:
+    - Application Support
+    - L2 Support
+    - Production Support
+    - Non-Production Support
+    - Production Operations
+    - Incident Investigation
+    - Issue and Defect Triage
+    - AWS Application Support
+    - Release Coordination
+    - Deployment Coordination
+    - Deployment Validation
+    - Batch and Integration Support
+    - Monitoring and Observability
+    - Operational Automation
+
+  release_management_knowledge:
+    - Release Coordination
+    - Deployment Planning
+    - Deployment Execution
+    - Release Readiness
+    - Production Readiness
+    - Change Requests
+    - RITM Support
+    - CAB Coordination
+    - CCB Coordination
+    - Rollback Planning
+    - Rollback Readiness
+    - Post-Deployment Validation
+    - Release-Window Communication
+
+  core_strengths:
+    - Troubleshooting
+    - Log Analysis
+    - Incident Investigation
+    - Service Restoration
+    - Business Impact Assessment
+    - Application Health Validation
+    - Root Cause Analysis Support
+    - Cross-Team Coordination
+    - Stakeholder Communication
+    - Operational Documentation
+    - Knowledge Transition
+    - Process Improvement
+
+  public_display:
+    show_current_residence: false
+    show_experience_locations: true
+    show_client_names: true
+    show_achievement_metrics: true
+    show_email: true
+    show_linkedin: true
+    show_github: true
+
+  website:
+    title: >
+      Deepanchakkaravarthi G | Senior Application Support Engineer
+
+    description: >
+      Career portfolio of Deepanchakkaravarthi G, a Senior Application
+      Support Engineer with experience in production operations, AWS
+      application support, incident investigation, automation, and
+      release and deployment coordination.
+
+    keywords:
+      - Senior Application Support Engineer
+      - Application Support
+      - Production Support
+      - L2 Support
+      - AWS Application Support
+      - Production Operations
+      - Incident Management
+      - Release Coordination
+      - Deployment Coordination
+      - Python Automation
+      - Informatica ETL
+      - Monitoring and Observability

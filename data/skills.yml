@@ -1,3 +1,302 @@
-technical: []
-tools: []
-soft: []
+skill_categories:
+
+  - id: application-support
+    name: Application Support
+    priority: primary
+    display_order: 1
+
+    skills:
+      - L2 Support
+      - Production Support
+      - Non-Production Support
+      - Enterprise Application Support
+      - Incident Investigation
+      - Issue Triage
+      - Defect Triage
+      - Log Analysis
+      - Application Monitoring
+      - Environment Validation
+      - Service Restoration
+      - Root Cause Analysis Support
+      - Impact Assessment
+      - Problem Investigation
+      - Application Health Validation
+      - Service Health Analysis
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: operations-and-support
+    name: Operations and Support Excellence
+    priority: primary
+    display_order: 2
+
+    skills:
+      - Incident Management
+      - Incident Response
+      - Service Restoration
+      - Problem Investigation
+      - Defect Analysis
+      - Application Health Validation
+      - Service Health Analysis
+      - Business Impact Assessment
+      - Bridge Call Coordination
+      - Escalation Coordination
+      - Operational Documentation
+      - Monitoring and Alert Management
+      - Production Readiness Assessment
+      - Troubleshooting
+      - Operational Support
+      - Production Stability Support
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: release-and-deployment
+    name: Release and Deployment Coordination
+    priority: supporting
+    display_order: 3
+
+    skills:
+      - Release Coordination
+      - Release Validation
+      - Release Readiness Assessment
+      - Deployment Planning
+      - Deployment Coordination
+      - Deployment Execution
+      - Production Readiness
+      - Production Release Support
+      - Environment Readiness Validation
+      - Post-Deployment Validation
+      - Go-Live Support
+      - Change Management
+      - Change Requests
+      - RITM Support
+      - CAB Coordination
+      - CCB Coordination
+      - Rollback Planning
+      - Rollback Readiness
+      - Release-Window Communication
+      - Release Governance Awareness
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: environment-management
+    name: Environment Management
+    priority: primary
+    display_order: 4
+
+    skills:
+      - Development Environment Support
+      - Test Environment Support
+      - Stage Environment Validation
+      - Load Environment Validation
+      - Production Environment Support
+      - Non-Production Environment Support
+      - Multi-Environment Support
+      - Multi-Environment Release Support
+      - Environment Health Validation
+      - Environment Readiness Validation
+
+    display:
+      public: true
+      featured: false
+
+
+  - id: cloud-and-monitoring
+    name: Cloud and Monitoring
+    priority: primary
+    display_order: 5
+
+    skills:
+      - Amazon Web Services
+      - AWS ECS
+      - AWS EC2
+      - AWS ECR
+      - AWS Lambda
+      - Amazon S3
+      - Amazon EFS
+      - Amazon SNS
+      - Amazon CloudWatch
+      - AWS Environment Support
+      - Cloud Operations
+      - Cloud Monitoring
+      - Microservice Operations
+      - AppDynamics
+      - Splunk
+      - Grafana
+      - Nagios
+      - Monitoring and Observability
+      - Log Monitoring
+      - Application Performance Monitoring
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: application-and-integration
+    name: Application and Integration
+    priority: supporting
+    display_order: 6
+
+    skills:
+      - Microservices
+      - REST APIs
+      - RabbitMQ
+      - Informatica ETL
+      - Batch Monitoring
+      - UC4
+      - Consul
+      - Vault
+      - Redis
+      - Hazelcast
+      - SAP Integrations
+      - Mainframe Integrations
+      - Data Flow Monitoring
+      - Interface Monitoring
+      - Interface Analysis
+      - Interface Troubleshooting
+      - Cross-System Batch Monitoring
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: coordination-and-leadership
+    name: Coordination and Leadership
+    priority: supporting
+    display_order: 7
+
+    skills:
+      - Cross-Team Coordination
+      - Development Team Coordination
+      - Testing Team Coordination
+      - Infrastructure Team Coordination
+      - Platform Team Coordination
+      - Interface Team Coordination
+      - Vendor Coordination
+      - Customer Communication
+      - Stakeholder Management
+      - Stakeholder Communication
+      - Knowledge Transfer
+      - Knowledge Transition
+      - Knowledge Management
+      - Operational Reporting
+      - Risk Identification
+      - Escalation Management
+      - Bridge Call Facilitation
+      - Release Communication
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: tools-and-automation
+    name: Tools and Automation
+    priority: primary
+    display_order: 8
+
+    skills:
+      - ServiceNow
+      - BMC Remedy
+      - JIRA
+      - Confluence
+      - Jenkins
+      - Git
+      - Maven
+      - Python
+      - Python Scripting
+      - Selenium WebDriver
+      - Selenium Automation
+      - GS Tools
+      - Postman
+      - Salesforce
+      - Oracle R12
+      - Operational Automation
+      - Process Automation
+      - Build Automation
+      - Validation Automation
+      - Reporting Automation
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: batch-and-data-operations
+    name: Batch and Data Operations
+    priority: supporting
+    display_order: 9
+
+    skills:
+      - Informatica ETL
+      - ETL Batch Monitoring
+      - Application Batch Monitoring
+      - Cross-System Batch Monitoring
+      - Batch Hold and Release Coordination
+      - Data Flow Monitoring
+      - Workflow Monitoring
+      - SAP Interface Monitoring
+      - Downstream Interface Coordination
+      - Batch Failure Investigation
+
+    display:
+      public: true
+      featured: true
+
+
+  - id: business-processes
+    name: Business and Process Operations
+    priority: supporting
+    display_order: 10
+
+    skills:
+      - Business Impact Assessment
+      - Process Documentation
+      - User Documentation
+      - Batch Operations
+      - Workflow Monitoring
+      - Order Management Operations
+      - Service-Level Tracking
+      - Performance Tracking
+      - Continuous Improvement
+      - Process Improvement
+      - Requester Support
+
+    display:
+      public: true
+      featured: false
+
+
+  - id: professional-practices
+    name: Professional Practices
+    priority: supporting
+    display_order: 11
+
+    skills:
+      - ITIL Practices
+      - Agile Fundamentals
+      - Scrum Fundamentals
+      - Incident Response
+      - Incident Management
+      - Problem Management
+      - Change Management
+      - Operational Governance
+      - Production Stability Support
+      - Release Governance Awareness
+      - Knowledge Management
+      - Continuous Improvement
+
+    display:
+      public: true
+      featured: false

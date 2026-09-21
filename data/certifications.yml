@@ -1,5 +1,9 @@
-certifications:
-  - name: ""
-    issuer: ""
-    date: ""
-    credential_id: ""
+professional_development:
+
+  training:
+
+    - name: ITIL Foundation
+      status: Training Completed
+
+    - name: Agile and Scrum Fundamentals
+      status: 

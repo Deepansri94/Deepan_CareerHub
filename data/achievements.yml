@@ -1,4 +1,121 @@
 achievements:
-  - title: ""
-    description: ""
-    date: ""
+
+  - id: disney-aws-microservices-support
+
+    title: AWS Microservices Application and Release Support
+
+    category: Application Support
+
+    description: >
+      Supported application operations, release execution,
+      deployment validation, and production and non-production
+      environment support for 45+ AWS microservices across
+      WDW, DLR, and DLP environments.
+
+    metric:
+      value: "45+"
+      unit: AWS microservices
+
+    skills:
+      - Application Support
+      - Production Operations
+      - AWS Application Support
+      - Release Coordination
+      - Deployment Validation
+      - Environment Support
+      - Microservices
+
+    featured: true
+
+  - id: disney-python-build-automation
+
+    title: Python Build and Validation Automation
+
+    category: Automation
+
+    description: >
+      Created and enhanced Python-based build and validation
+      automation that reduced Build Team manual effort by 60%
+      and improved operational repeatability.
+
+    metric:
+      value: "60%"
+      unit: reduction in manual effort
+
+    skills:
+      - Python
+      - Python Scripting
+      - Build Automation
+      - Process Automation
+      - Validation Automation
+      - Operational Automation
+
+    featured: true
+
+  - id: bmw-l2-resolution
+
+    title: High L2 Resolution Rate
+
+    category: Application Support
+
+    description: >
+      Sustained 97% issue resolution without L3 transfer through
+      structured triage, troubleshooting, application expertise,
+      and knowledge reuse.
+
+    metric:
+      value: "97%"
+      unit: issue resolution without L3 transfer
+
+    skills:
+      - L2 Support
+      - Incident Investigation
+      - Issue Triage
+      - Troubleshooting
+      - Service Restoration
+      - Knowledge Management
+
+    featured: true
+
+  - id: bmw-selenium-automation
+
+    title: Selenium Operational Automation
+
+    category: Automation
+
+    description: >
+      Automated repetitive reporting and operational checks using
+      Selenium WebDriver, reducing human intervention by 30%.
+
+    metric:
+      value: "30%"
+      unit: reduction in human intervention
+
+    skills:
+      - Selenium WebDriver
+      - Selenium Automation
+      - Reporting Automation
+      - Operational Automation
+
+    featured: true
+
+  - id: infosys-process-improvement
+
+    title: Process Performance Improvement
+
+    category: Continuous Improvement
+
+    description: >
+      Implemented process-performance tracking that improved
+      operational efficiency by 20%.
+
+    metric:
+      value: "20%"
+      unit: improvement in operational efficiency
+
+    skills:
+      - Performance Tracking
+      - Continuous Improvement
+      - Process Improvement
+
+    featured: true
