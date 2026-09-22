@@ -1,5 +1,31 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-09-18",
-  "release_name": "CareerHub v1.0 — First Live Release"
+  "version": "1.4.0",
+  "release_name": "CareerHub v1.4.0",
+  "release_date": "2026-09-22",
+  "status": "stable",
+
+  "features": [
+    "Portfolio Website",
+    "Resume Generator",
+    "Resume Viewer",
+    "PDF Export",
+    "LinkedIn Generator",
+    "Cover Letter Generator",
+    "Unified Build Workflow"
+  ],
+
+  "generators": {
+    "website": true,
+    "resume": true,
+    "linkedin": true,
+    "coverletter": true
+  },
+
+  "deployment": {
+    "github_pages": true,
+    "resume_viewer": true,
+    "pdf_export": true
+  },
+
+  "last_updated": "2026-09-22"
 }
