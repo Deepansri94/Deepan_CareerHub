@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Deepanchakkaravarthi G">
+  <meta name="description"
+    content="ATS-friendly resume for Deepanchakkaravarthi G targeting Senior Application Support Engineer roles.">
+  <title>Deepanchakkaravarthi G | Senior Application Support Engineer</title>
+  <style>
+    :root {
+      --ink: #1b1f23;
+      --muted: #4b5563;
+      --rule: #aeb6bf;
+      --accent: #9a3412;
+      --paper: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #eef1f4;
+    }
+
+    body {
+      width: min(100% - 32px, 8.27in);
+      margin: 24px auto;
+      padding: 0.55in 0.62in;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.4pt;
+      line-height: 1.42;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.10);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    header {
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--ink);
+    }
+
+    h1 {
+      margin-bottom: 3px;
+      font-size: 23pt;
+      line-height: 1.05;
+      letter-spacing: 0.01em;
+    }
+
+    .target-title {
+      margin: 0 0 7px;
+      color: var(--accent);
+      font-size: 12.5pt;
+      font-weight: 700;
+    }
+
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 10px;
+      color: var(--muted);
+      font-size: 9.3pt;
+    }
+
+    .contact-line span:not(:last-child)::after {
+      content: " |";
+      margin-left: 10px;
+      color: var(--rule);
+    }
+
+    section {
+      margin-top: 14px;
+    }
+
+    h2 {
+      margin-bottom: 7px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid var(--rule);
+      font-size: 11.5pt;
+      line-height: 1.2;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin-bottom: 2px;
+      font-size: 10.8pt;
+      line-height: 1.25;
+    }
+
+    .summary {
+      margin-bottom: 0;
+      text-align: left;
+    }
+
+    .skill-row,
+    .development-row {
+      margin: 0 0 4px;
+    }
+
+    .skill-row strong,
+    .development-row strong {
+      color: var(--ink);
+    }
+
+    .role,
+    .project,
+    .education-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .role {
+      margin-bottom: 13px;
+    }
+
+    .role-heading,
+    .education-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: baseline;
+    }
+
+    .role-heading-right,
+    .education-heading-right {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 9.2pt;
+      white-space: nowrap;
+    }
+
+    .employer-line,
+    .project-line {
+      margin: 1px 0 5px;
+      color: var(--muted);
+      font-size: 9.4pt;
+    }
+
+    .role-summary {
+      margin: 0 0 4px;
+    }
+
+    ul {
+      margin: 4px 0 0 18px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 3px;
+      padding-left: 1px;
+    }
+
+    .achievement-list li {
+      margin-bottom: 5px;
+    }
+
+    .project {
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      margin-bottom: 4px;
+    }
+
+    .technology-line {
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .all-tools {
+      margin-bottom: 0;
+    }
+
+    .education-item {
+      margin-bottom: 7px;
+    }
+
+    .education-item p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 16px;
+      padding-top: 6px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 8pt;
+      text-align: center;
+    }
+
+    @media (max-width: 680px) {
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 24px;
+        box-shadow: none;
+      }
+
+      .role-heading,
+      .education-heading {
+        display: block;
+      }
+
+      .role-heading-right,
+      .education-heading-right {
+        margin-top: 2px;
+        white-space: normal;
+      }
+
+      .contact-line {
+        display: block;
+      }
+
+      .contact-line span {
+        display: block;
+      }
+
+      .contact-line span:not(:last-child)::after {
+        content: "";
+        margin: 0;
+      }
+    }
+
+    @page {
+      size: A4;
+      margin: 0.45in;
+    }
+
+    @media print {
+
+      html,
+      body {
+        background: #fff;
+      }
+
+      body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        font-size: 9.7pt;
+        box-shadow: none;
+      }
+
+      a {
+        color: #000;
+      }
+
+      section {
+        margin-top: 11px;
+      }
+
+      footer {
+        display: none;
+      }
+
+      .resume-actions {
+        display: none !important;
+      }
+    }
+
+    .resume-actions {
+      display: flex;
+      gap: 12px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .download-btn {
+      border: none;
+      padding: 12px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .pdf-btn {
+      background: #dc2626;
+      color: white;
+    }
+
+    .pdf-btn:hover {
+      background: #b91c1c;
+    }
+
+    .docx-btn {
+      background: #2563eb;
+      color: white;
+    }
+
+    .docx-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Deepanchakkaravarthi G</h1>
+    <p class="target-title">Senior Application Support Engineer</p>
+    <div class="contact-line" aria-label="Contact information">
+
+      <span><a href="mailto:Deepansri94@yahoo.com">Deepansri94@yahoo.com</a></span>
+      <span>www.linkedin.com/in/deepanchakkaravarthi-g-6b487a172/
+</span>
+      <span>github.com/Deepansri94
+ </span>
+
+    </div>
+    <div class="resume-actions">
+      <button class="download-btn pdf-btn" onclick="downloadPDF()">
+        📄 Download PDF
+      </button>
+      <button class="download-btn docx-btn" onclick="downloadDOCX()">
+        📝 Download DOCX
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Professional Summary</h2>
+      <p class="summary">Senior Application Support Engineer with 10+ years of enterprise experience across application operations, L2 support, incident investigation, release coordination, deployment validation, and batch support. Experienced in troubleshooting production and non-production issues, analyzing logs and service health, assessing business impact, triaging defects with development and testing teams, and coordinating resolution across application, infrastructure, platform, and interface owners. Supports AWS-based microservices across multiple environments and brings strong experience in stakeholder communication, operational documentation, monitoring, ETL workflows, and automation.
+</p>
+    </section>
+
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Core Competencies</h2>
+      <p class="skill-row">
+        <strong>Application Support:</strong>
+        L2 Support, Production Support, Non-Production Support, Enterprise Application Support, Incident Investigation, Issue Triage, Defect Triage, Log Analysis, Application Monitoring, Environment Validation, Service Restoration, Root Cause Analysis Support
+      </p>
+      <p class="skill-row">
+        <strong>Operations and Support Excellence:</strong>
+        Incident Management, Incident Response, Service Restoration, Problem Investigation, Defect Analysis, Application Health Validation, Service Health Analysis, Business Impact Assessment, Bridge Call Coordination, Escalation Coordination, Operational Documentation, Monitoring and Alert Management
+      </p>
+      <p class="skill-row">
+        <strong>Release and Deployment Coordination:</strong>
+        Release Coordination, Release Validation, Release Readiness Assessment, Deployment Planning, Deployment Coordination, Deployment Execution, Production Readiness, Production Release Support, Environment Readiness Validation, Post-Deployment Validation, Go-Live Support, Change Management
+      </p>
+      <p class="skill-row">
+        <strong>Environment Management:</strong>
+        Development Environment Support, Test Environment Support, Stage Environment Validation, Load Environment Validation, Production Environment Support, Non-Production Environment Support, Multi-Environment Support, Multi-Environment Release Support, Environment Health Validation, Environment Readiness Validation
+      </p>
+      <p class="skill-row">
+        <strong>Cloud and Monitoring:</strong>
+        Amazon Web Services, AWS ECS, AWS EC2, AWS ECR, AWS Lambda, Amazon S3, Amazon EFS, Amazon SNS, Amazon CloudWatch, AWS Environment Support, Cloud Operations, Cloud Monitoring
+      </p>
+      <p class="skill-row">
+        <strong>Application and Integration:</strong>
+        Microservices, REST APIs, RabbitMQ, Informatica ETL, Batch Monitoring, UC4, Consul, Vault, Redis, Hazelcast, SAP Integrations, Mainframe Integrations
+      </p>
+      <p class="skill-row">
+        <strong>Coordination and Leadership:</strong>
+        Cross-Team Coordination, Development Team Coordination, Testing Team Coordination, Infrastructure Team Coordination, Platform Team Coordination, Interface Team Coordination, Vendor Coordination, Customer Communication, Stakeholder Management, Stakeholder Communication, Knowledge Transfer, Knowledge Transition
+      </p>
+      <p class="skill-row">
+        <strong>Tools and Automation:</strong>
+        ServiceNow, BMC Remedy, JIRA, Confluence, Jenkins, Git, Maven, Python, Python Scripting, Selenium WebDriver, Selenium Automation, GS Tools
+      </p>
+      <p class="skill-row">
+        <strong>Batch and Data Operations:</strong>
+        Informatica ETL, ETL Batch Monitoring, Application Batch Monitoring, Cross-System Batch Monitoring, Batch Hold and Release Coordination, Data Flow Monitoring, Workflow Monitoring, SAP Interface Monitoring, Downstream Interface Coordination, Batch Failure Investigation
+      </p>
+      <p class="skill-row">
+        <strong>Professional Practices:</strong>
+        ITIL Practices, Agile Fundamentals, Scrum Fundamentals, Incident Response, Incident Management, Problem Management, Change Management, Operational Governance, Production Stability Support, Release Governance Awareness, Knowledge Management, Continuous Improvement
+      </p>
+    </section>
+
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Professional Experience</h2>
+      <article class="role">
+        <div class="role-heading">
+          <h3>Senior Application Support Engineer | Release &amp; Application Operations Coordinator
+</h3>
+          <div class="role-heading-right">Nov 2023 - Present | Bangalore, India</div>
+        </div>
+        <p class="employer-line">
+          <strong>Capgemini Technology Services India Limited</strong>
+ | Client: Disney | Project: Travel Box        </p>
+        <p class="role-summary">Supports application and release operations for an AWS-based microservices ecosystem across Disney WDW, DLR, and DLP production and non-production environments. Responsibilities include incident investigation, defect triage, deployment coordination, release readiness, post-deployment validation, monitoring, automation, and cross-team troubleshooting.
+</p>
+        <ul>
+          <li>Support application and release operations for 45+ AWS microservices across WDW, DLR, and DLP production and non-production environments.</li>
+          <li>Troubleshoot issues identified during functional, regression, unit, and performance testing by reviewing application logs, service health, deployment status, configuration, data, and dependent-system behavior.</li>
+          <li>Triage JIRA defects with testing partners and development teams, facilitate troubleshooting discussions and bridge calls, communicate application impact and findings, and coordinate fixes through validation.</li>
+          <li>Coordinate builds and multi-environment deployments using AWS ECS, ECR, EC2, Jenkins, console and Vault updates, database scripts, Redis services, application services, and batch holds and releases.</li>
+          <li>Perform post-deployment health checks, stability validation, service-health verification, and error analysis using Amazon CloudWatch, Grafana, Splunk, and AppDynamics.</li>
+          <li>Prepare and execute release steps for RITM and change-controlled environments, support CCB and CAB approvals, maintain rollback readiness, and send release-window communications.</li>
+        </ul>
+      </article>
+      <article class="role">
+        <div class="role-heading">
+          <h3>Application Support Lead</h3>
+          <div class="role-heading-right">Jun 2020 - Oct 2023 | Bangalore, India</div>
+        </div>
+        <p class="employer-line">
+          <strong>Capgemini Technology Services India Limited</strong>
+ | Client: BMW | Project: BMW Einkauf, Purchasing        </p>
+        <p class="role-summary">Led L2 application support for multiple enterprise purchasing applications, covering production and test-environment incident investigation, application and interface-impact assessment, batch monitoring, release support, environment validation, stakeholder coordination, knowledge transition, and operational automation.
+</p>
+        <ul>
+          <li>Lead L2 application support for multiple enterprise applications and provide structured triage and service-restoration support.</li>
+          <li>Investigate production and test-environment incidents, assess business and interface impact, and analyze application logs, workflows, and dependent-system behavior.</li>
+          <li>Coordinate issue resolution with development teams, vendors, interface owners, and subject matter experts.</li>
+          <li>Manage 20+ application-related Informatica ETL batches and support monitoring of 40+ cross-system batches connecting SAP and downstream interface teams.</li>
+          <li>Support releases through impact review, deployment coordination, environment validation, customer communication, workflow follow-up, and service-level tracking.</li>
+          <li>Lead end-to-end knowledge transition of supported applications and operational processes to the receiving organization.</li>
+        </ul>
+      </article>
+      <article class="role">
+        <div class="role-heading">
+          <h3>Application Support Engineer</h3>
+          <div class="role-heading-right">Mar 2017 - Jun 2020 | Bangalore, India</div>
+        </div>
+        <p class="employer-line">
+          <strong>Capgemini Technology Services India Limited</strong>
+ | Client: BMW | Project: BMW Teilequalität, Quality        </p>
+        <p class="role-summary">Provided L2 application support for Java-based BMW quality applications integrated with mainframe and SAP systems. Support activities included incident management, application and interface troubleshooting, deployment support, batch monitoring, environment validation, proactive monitoring, and service restoration.
+</p>
+        <ul>
+          <li>Provide L2 application support across multiple BMW quality applications.</li>
+          <li>Manage incidents in BMC Remedy and investigate application, batch, and interface failures.</li>
+          <li>Coordinate escalations and maintain customer communications through issue resolution.</li>
+          <li>Support Java-based applications integrated with mainframe and SAP systems.</li>
+          <li>Perform operational troubleshooting, deployment support, interface analysis, batch monitoring, environment validation, root-cause analysis support, and service restoration.</li>
+          <li>Perform proactive application and infrastructure monitoring using Nagios and Grafana.</li>
+        </ul>
+      </article>
+      <article class="role">
+        <div class="role-heading">
+          <h3>Process Executive</h3>
+          <div class="role-heading-right">Nov 2015 - Feb 2017 | Bangalore, India</div>
+        </div>
+        <p class="employer-line">
+          <strong>Infosys BPM Limited</strong>
+ | Client: Veritas Technologies | Project: Order-to-Cash        </p>
+        <p class="role-summary">Supported global requester-ticket and order-management workflows for EMEA, APJ, and AMS regions using Salesforce and Oracle R12. Contributed to process documentation, user guidance, team training, performance tracking, and operational improvement.
+</p>
+        <ul>
+          <li>Resolve requester tickets through Salesforce.</li>
+          <li>Execute IBOT, LAR, and LRR order-management workflows for EMEA, APJ, and AMS regions using Oracle R12.</li>
+          <li>Create process documentation and user manuals.</li>
+          <li>Train new team members on operational workflows.</li>
+          <li>Implement process-performance tracking.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="achievement-heading">
+      <h2 id="achievement-heading">Selected Achievements</h2>
+      <ul class="achievement-list">
+        <li><strong>AWS Microservices Application and Release Support:</strong> Supported application operations, release execution, deployment validation, and production and non-production environment support for 45+ AWS microservices across WDW, DLR, and DLP environments.
+</li>
+        <li><strong>Python Build and Validation Automation:</strong> Created and enhanced Python-based build and validation automation that reduced Build Team manual effort by 60% and improved operational repeatability.
+</li>
+        <li><strong>High L2 Resolution Rate:</strong> Sustained 97% issue resolution without L3 transfer through structured triage, troubleshooting, application expertise, and knowledge reuse.
+</li>
+        <li><strong>Selenium Operational Automation:</strong> Automated repetitive reporting and operational checks using Selenium WebDriver, reducing human intervention by 30%.
+</li>
+        <li><strong>Process Performance Improvement:</strong> Implemented process-performance tracking that improved operational efficiency by 20%.
+</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects and Automation</h2>
+      <article class="project">
+        <h3>Python Build and Validation Automation</h3>
+        <p class="project-line">Professional Automation Initiative</p>
+        <p>Python-based automation developed to streamline build and validation activities, reduce repetitive manual effort, and improve operational repeatability.
+</p>
+        <p><strong>Outcome:</strong> 60% reduction in manual effort</p>
+        <p class="technology-line"><strong>Technologies:</strong> Python, Build Automation, Validation Automation, Operational Automation</p>
+      </article>
+      <article class="project">
+        <h3>Selenium Operational Automation</h3>
+        <p class="project-line">Professional Automation Initiative</p>
+        <p>Selenium WebDriver automation developed for repetitive reporting and operational checks.
+</p>
+        <p><strong>Outcome:</strong> 30% reduction in human intervention</p>
+        <p class="technology-line"><strong>Technologies:</strong> Selenium WebDriver, Selenium Automation, Reporting Automation, Process Automation</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="tools-heading">
+      <h2 id="tools-heading">Tools and Technologies</h2>
+      <p class="all-tools">Amazon Web Services, AWS ECS, AWS EC2, AWS ECR, Amazon CloudWatch, Microservices, REST APIs, ServiceNow, JIRA, Jenkins, Git, Maven, Python, Selenium WebDriver, AppDynamics, Grafana, Splunk, Confluence, Postman, Vault, Redis, Informatica ETL, SAP Integrations, BMC Remedy, Application Monitoring, Batch Monitoring, Incident Management, Problem Management, Change Management, Java Applications, Mainframe Integrations, Nagios, SQL, Salesforce, Oracle R12, Order Management, Build Automation, Validation Automation, Operational Automation, Selenium Automation, Reporting Automation, Process Automation</p>
+    </section>
+
+    <section aria-labelledby="development-heading">
+      <h2 id="development-heading">Professional Development</h2>
+      <p class="development-row">
+        <strong>Training:</strong>
+ITIL Foundation (Training Completed); Agile and Scrum Fundamentals (Training Completed); AWS Cloud Practitioner (Training Completed)      </p>
+      <p class="development-row">
+        <strong>Working Knowledge:</strong>
+Lean and Six Sigma (Working Knowledge)      </p>
+    </section>
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <article class="education-item">
+        <div class="education-heading">
+          <h3>Master of Computer Applications</h3>
+<div class="education-heading-right">Correspondence • 62%</div>        </div>
+        <p>Bharathiar University</p>
+      </article>
+      <article class="education-item">
+        <div class="education-heading">
+          <h3>Bachelor of Science in Computer Science</h3>
+<div class="education-heading-right">7.75 CGPA</div>        </div>
+        <p>Muthayammal College of Arts &amp; Science</p>
+      </article>
+    </section>
+  </main>
+  <!-- Generated from CareerHub YAML data on 2026-09-22T12:45:18+05:30. -->
+  <footer>
+
+  </footer>
+  <script>
+
+    function downloadPDF() {
+      window.print();
+    }
+
+    function downloadDOCX() {
+      alert(
+        "DOCX generation is not implemented yet.\nGenerate DOCX through CareerHub Resume Builder."
+      );
+    }
+
+  </script>
+</body>
+
+</html>

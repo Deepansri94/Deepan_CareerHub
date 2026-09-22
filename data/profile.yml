@@ -110,6 +110,12 @@ profile:
     show_linkedin: true
     show_github: true
 
+  resume_exports:
+    include_location: false
+    include_linkedin_url: true
+    include_github_url: true
+    include_email: true
+
   website:
     title: >
       Deepanchakkaravarthi G | Senior Application Support Engineer
