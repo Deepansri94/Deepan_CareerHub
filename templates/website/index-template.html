@@ -1290,9 +1290,7 @@
             <h3>{{ item.degree }}</h3>
             <p>{{ item.institution }}</p>{% if item.details %}<p>{{ item.details }}</p>{% endif %}
           </article>{% endfor %}</div>
-        <div class="chips reveal">{% for item in professional_development.training %}<span class="chip">{{ item.name }}
-            • {{ item.status }}</span>{% endfor %}{% for item in professional_development.working_knowledge %}<span
-            class="chip">{{ item.name }} • {{ item.status }}</span>{% endfor %}</div>
+        <div class="chips reveal">{% for item in professional_development.training %}<span class="chip">{{ item.name }}</span>{% endfor %}{% for item in professional_development.working_knowledge %}<span class="chip">{{ item.name }}</span>{% endfor %}</div>
       </div>
     </section>
 
@@ -1310,7 +1308,7 @@
               {% if profile.public_display.show_email %}<a class="contact-link"
                 href="mailto:{{ profile.contact.email }}"><span class="contact-icon">@</span><span>{{
                   profile.contact.email }}</span></a>{% endif %}
-              {% if profile.public_display.show_linkedin %}<a class="contact-link" href="{{ profile.contact.linkedin }}"
+              {% if profile.public_display.show_linkedin %}<a class="contact-link" href="{{ profile.contact.linkedin}}"
                 target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span>LinkedIn
                   profile</span></a>{% endif %}
               {% if profile.public_display.show_github %}<a class="contact-link" href="{{ profile.contact.github }}"

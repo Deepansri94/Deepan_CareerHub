@@ -55,7 +55,7 @@ projects:
     featured: true
 
     hero_image:
-      file: assets/projects/vaultone-dashboard.png
+      file: assets/projects/vaultone-logo.png
 
     public_url: null
 

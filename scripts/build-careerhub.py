@@ -9,14 +9,19 @@ ROOT = Path(__file__).resolve().parent.parent
 COMMANDS = [
     [
         sys.executable,
-        str(ROOT / "scripts" / "generate-website.py")
+        str(ROOT / "scripts" / "generate-resume.py"),
+        "--validate-only",
+    ],
+    [
+        sys.executable,
+        str(ROOT / "scripts" / "generate-website.py"),
     ],
     [
         sys.executable,
         str(ROOT / "scripts" / "generate-resume.py"),
         "--output",
-        str(ROOT / "docs" / "resume" / "index.html")
-    ]
+        str(ROOT / "docs" / "resume" / "index.html"),
+    ],
 ]
 
 for command in COMMANDS:

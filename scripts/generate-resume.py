@@ -52,16 +52,12 @@ TOP_LEVEL_KEYS = {
 # Resume presentation rules only. Career facts remain in YAML.
 DEFAULT_SKILL_CATEGORY_IDS = (
     "application-support",
-    "operations-and-support",
     "release-and-deployment",
-    "environment-management",
     "cloud-and-monitoring",
-    "application-and-integration",
-    "coordination-and-leadership",
     "tools-and-automation",
-    "batch-and-data-operations",
-    "professional-practices",
+    "coordination-and-leadership",
 )
+
 
 DEFAULT_ACHIEVEMENT_IDS = (
     "disney-aws-microservices-support",
@@ -77,7 +73,7 @@ DEFAULT_PROJECT_IDS = (
 )
 
 MAX_RESPONSIBILITIES = 6
-MAX_SKILLS_PER_CATEGORY = 12
+MAX_SKILLS_PER_CATEGORY = 8
 
 
 class ResumeGenerationError(RuntimeError):

@@ -92,3 +92,80 @@ This project follows the principles of [Keep a Changelog](https://keepachangelog
 [Unreleased]: https://github.com/Deepansri94/Deepan_CareerHub/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/Deepansri94/Deepan_CareerHub/releases/tag/v1.0.0
 [0.1.0]: https://github.com/Deepansri94/Deepan_CareerHub/releases/tag/v0.1.0
+
+## [1.2.0] - 2026-09-22
+
+### Added
+
+- Added ATS-focused HTML Resume Builder using CareerHub YAML data.
+- Added dedicated Resume Viewer page under:
+  - docs/resume/index.html
+- Added Resume navigation workflow:
+  - Portfolio → Resume Viewer → Download PDF
+- Added single-command build orchestration through:
+  - scripts/build-careerhub.py
+- Added Resume button to portfolio navigation.
+- Added browser-based PDF generation from Resume Viewer using print workflow.
+- Added clickable Email, LinkedIn, and GitHub links in Resume Viewer.
+- Added Professional Development section generation from certifications.yml.
+- Added role-based resume generation support through:
+  - --title parameter
+- Added personal project inclusion support through:
+  - --include-personal-projects
+
+### Changed
+
+- Simplified CareerHub architecture to focus on:
+  - Portfolio Website
+  - HTML Resume
+  - PDF Export
+- Removed DOCX generation from current release scope.
+- Updated Resume navigation path to:
+  - resume/index.html
+- Reduced resume skill density by limiting:
+  - MAX_SKILLS_PER_CATEGORY = 8
+- Refined selected resume skill categories to prioritize:
+  - Application Support
+  - Release & Deployment
+  - Cloud & Monitoring
+  - Coordination & Leadership
+  - Tools & Automation
+- Improved contact information rendering in resume output.
+- Updated Resume output generation to support deployment under GitHub Pages.
+
+### Fixed
+
+- Fixed broken LinkedIn and GitHub display formatting in Resume Viewer.
+- Fixed visible URL formatting for clickable contact links.
+- Fixed Resume button navigation during local execution.
+- Fixed Resume button navigation for GitHub Pages deployment.
+- Fixed project image rendering issues in featured project cards.
+- Fixed VaultOne project visual presentation.
+- Fixed multiple Jinja template compatibility issues.
+- Fixed StrictUndefined rendering failures caused by optional fields.
+- Fixed project outcome handling for projects without metrics.
+- Fixed duplicated project visual markup.
+- Fixed obsolete project_initials filter dependency.
+- Fixed UTF-8 rendering behavior across generators.
+
+### Architecture
+
+- YAML remains the single source of truth.
+- Portfolio and Resume outputs are generated from the same career data.
+- build-careerhub.py now acts as the primary generation entry point.
+- docs/index.html remains the GitHub Pages landing page.
+- docs/resume/index.html serves as the ATS Resume Viewer.
+- Generated content remains separated from source YAML files.
+- CareerHub continues to exclude itself from featured project rendering.
+
+### Known Improvements Planned
+
+- Rename:
+  - requirement.txt → requirements.txt
+- Complete remaining past-tense normalization in BMW Purchasing responsibilities.
+- Add Resume link to mobile navigation.
+- Remove unused generate-linkedin.py placeholder.
+- Review and reduce long Tools & Technologies section.
+- Eliminate redundant generated/ and output/ folders after migration is complete.
+- Add build validation stage before generation.
+- Improve Education page-break behavior in PDF export.

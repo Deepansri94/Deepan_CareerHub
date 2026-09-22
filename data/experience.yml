@@ -178,34 +178,34 @@ experience:
 
     responsibilities:
       - >
-        Lead L2 application support for multiple enterprise applications
-        and provide structured triage and service-restoration support.
+        Led L2 application support for multiple enterprise applications
+        and provided structured triage and service-restoration support.
 
       - >
-        Investigate production and test-environment incidents, assess
+        Investigated production and test-environment incidents, assess
         business and interface impact, and analyze application logs,
         workflows, and dependent-system behavior.
 
       - >
-        Coordinate issue resolution with development teams, vendors,
+        Coordinated issue resolution with development teams, vendors,
         interface owners, and subject matter experts.
 
       - >
-        Manage 20+ application-related Informatica ETL batches and
+        Managed 20+ application-related Informatica ETL batches and
         support monitoring of 40+ cross-system batches connecting SAP
         and downstream interface teams.
 
       - >
-        Support releases through impact review, deployment coordination,
+        Supported releases through impact review, deployment coordination,
         environment validation, customer communication, workflow
         follow-up, and service-level tracking.
 
       - >
-        Lead end-to-end knowledge transition of supported applications
+        Led end-to-end knowledge transition of supported applications
         and operational processes to the receiving organization.
 
       - >
-        Automate repetitive reporting and operational checks using
+        Automated repetitive reporting and operational checks using
         Selenium WebDriver.
 
     achievements:
@@ -314,28 +314,28 @@ experience:
 
     responsibilities:
       - >
-        Provide L2 application support across multiple BMW quality
+        Provided L2 application support across multiple BMW quality
         applications.
 
       - >
-        Manage incidents in BMC Remedy and investigate application,
+        Managed incidents in BMC Remedy and investigated application,
         batch, and interface failures.
 
       - >
-        Coordinate escalations and maintain customer communications
+        Coordinated escalations and maintained customer communications
         through issue resolution.
 
       - >
-        Support Java-based applications integrated with mainframe and
+        Supported Java-based applications integrated with mainframe and
         SAP systems.
 
       - >
-        Perform operational troubleshooting, deployment support,
+        Performed operational troubleshooting, deployment support,
         interface analysis, batch monitoring, environment validation,
         root-cause analysis support, and service restoration.
 
       - >
-        Perform proactive application and infrastructure monitoring
+        Performed proactive application and infrastructure monitoring
         using Nagios and Grafana.
 
     technologies:
@@ -400,20 +400,20 @@ experience:
 
     responsibilities:
       - >
-        Resolve requester tickets through Salesforce.
+        Resolved requester tickets through Salesforce.
 
       - >
-        Execute IBOT, LAR, and LRR order-management workflows for EMEA,
+        Executed IBOT, LAR, and LRR order-management workflows for EMEA,
         APJ, and AMS regions using Oracle R12.
 
       - >
-        Create process documentation and user manuals.
+        Created process documentation and user manuals.
 
       - >
-        Train new team members on operational workflows.
+        Trained new team members on operational workflows.
 
       - >
-        Implement process-performance tracking.
+        Implemented process-performance tracking.
 
     achievements:
       - id: infosys-documentation-improvement

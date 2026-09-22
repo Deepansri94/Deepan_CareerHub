@@ -45,9 +45,9 @@ profile:
     non-production issues, analyzing logs and service health, assessing
     business impact, triaging defects with development and testing teams,
     and coordinating resolution across application, infrastructure,
-    platform, and interface owners. Supports AWS-based microservices
-    across multiple environments and brings strong experience in
-    stakeholder communication, operational documentation, monitoring,
+    platform, and interface owners. Currently supporting AWS-based
+    microservices across multiple environments, with strong experience
+    in stakeholder communication, operational documentation, monitoring,
     ETL workflows, and automation.
 
   short_about: >

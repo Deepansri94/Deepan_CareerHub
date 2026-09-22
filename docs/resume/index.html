@@ -308,6 +308,21 @@
     .docx-btn:hover {
       background: #1d4ed8;
     }
+
+    #education-heading {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .education-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    section[aria-labelledby="education-heading"] {
+      break-before: avoid;
+      page-break-before: avoid;
+    }
   </style>
 </head>
 
@@ -317,11 +332,25 @@
     <p class="target-title">Senior Application Support Engineer</p>
     <div class="contact-line" aria-label="Contact information">
 
-      <span><a href="mailto:Deepansri94@yahoo.com">Deepansri94@yahoo.com</a></span>
-      <span>linkedin.com/in/deepanchakkaravarthi-g-6b487a172/
-</span>
-      <span>github.com/Deepansri94
-</span>
+      <span>
+        <a href="mailto:Deepansri94@yahoo.com">
+          Deepansri94@yahoo.com
+        </a>
+      </span>
+
+      <span>
+        <a href="https://www.linkedin.com/in/deepanchakkaravarthi-g-6b487a172/" target="_blank" rel="noopener noreferrer">
+          linkedin.com/in/deepanchakkaravarthi-g-6b487a172
+        </a>
+
+      </span>
+
+      <span>
+        <a href="https://github.com/Deepansri94" target="_blank" rel="noopener noreferrer">
+          github.com/Deepansri94
+        </a>
+
+      </span>
 
     </div>
     <div class="resume-actions">
@@ -337,7 +366,7 @@
   <main>
     <section aria-labelledby="summary-heading">
       <h2 id="summary-heading">Professional Summary</h2>
-      <p class="summary">Senior Application Support Engineer with 10+ years of enterprise experience across application operations, L2 support, incident investigation, release coordination, deployment validation, and batch support. Experienced in troubleshooting production and non-production issues, analyzing logs and service health, assessing business impact, triaging defects with development and testing teams, and coordinating resolution across application, infrastructure, platform, and interface owners. Supports AWS-based microservices across multiple environments and brings strong experience in stakeholder communication, operational documentation, monitoring, ETL workflows, and automation.
+      <p class="summary">Senior Application Support Engineer with 10+ years of enterprise experience across application operations, L2 support, incident investigation, release coordination, deployment validation, and batch support. Experienced in troubleshooting production and non-production issues, analyzing logs and service health, assessing business impact, triaging defects with development and testing teams, and coordinating resolution across application, infrastructure, platform, and interface owners. Currently supporting AWS-based microservices across multiple environments, with strong experience in stakeholder communication, operational documentation, monitoring, ETL workflows, and automation.
 </p>
     </section>
 
@@ -345,43 +374,23 @@
       <h2 id="skills-heading">Core Competencies</h2>
       <p class="skill-row">
         <strong>Application Support:</strong>
-        L2 Support, Production Support, Non-Production Support, Enterprise Application Support, Incident Investigation, Issue Triage, Defect Triage, Log Analysis, Application Monitoring, Environment Validation, Service Restoration, Root Cause Analysis Support
-      </p>
-      <p class="skill-row">
-        <strong>Operations and Support Excellence:</strong>
-        Incident Management, Incident Response, Service Restoration, Problem Investigation, Defect Analysis, Application Health Validation, Service Health Analysis, Business Impact Assessment, Bridge Call Coordination, Escalation Coordination, Operational Documentation, Monitoring and Alert Management
+        L2 Support, Production Support, Non-Production Support, Enterprise Application Support, Incident Investigation, Issue Triage, Defect Triage, Log Analysis
       </p>
       <p class="skill-row">
         <strong>Release and Deployment Coordination:</strong>
-        Release Coordination, Release Validation, Release Readiness Assessment, Deployment Planning, Deployment Coordination, Deployment Execution, Production Readiness, Production Release Support, Environment Readiness Validation, Post-Deployment Validation, Go-Live Support, Change Management
-      </p>
-      <p class="skill-row">
-        <strong>Environment Management:</strong>
-        Development Environment Support, Test Environment Support, Stage Environment Validation, Load Environment Validation, Production Environment Support, Non-Production Environment Support, Multi-Environment Support, Multi-Environment Release Support, Environment Health Validation, Environment Readiness Validation
+        Release Coordination, Release Validation, Release Readiness Assessment, Deployment Planning, Deployment Coordination, Deployment Execution, Production Readiness, Production Release Support
       </p>
       <p class="skill-row">
         <strong>Cloud and Monitoring:</strong>
-        Amazon Web Services, AWS ECS, AWS EC2, AWS ECR, AWS Lambda, Amazon S3, Amazon EFS, Amazon SNS, Amazon CloudWatch, AWS Environment Support, Cloud Operations, Cloud Monitoring
-      </p>
-      <p class="skill-row">
-        <strong>Application and Integration:</strong>
-        Microservices, REST APIs, RabbitMQ, Informatica ETL, Batch Monitoring, UC4, Consul, Vault, Redis, Hazelcast, SAP Integrations, Mainframe Integrations
+        Amazon Web Services, AWS ECS, AWS EC2, AWS ECR, AWS Lambda, Amazon S3, Amazon EFS, Amazon SNS
       </p>
       <p class="skill-row">
         <strong>Coordination and Leadership:</strong>
-        Cross-Team Coordination, Development Team Coordination, Testing Team Coordination, Infrastructure Team Coordination, Platform Team Coordination, Interface Team Coordination, Vendor Coordination, Customer Communication, Stakeholder Management, Stakeholder Communication, Knowledge Transfer, Knowledge Transition
+        Cross-Team Coordination, Development Team Coordination, Testing Team Coordination, Infrastructure Team Coordination, Platform Team Coordination, Interface Team Coordination, Vendor Coordination, Customer Communication
       </p>
       <p class="skill-row">
         <strong>Tools and Automation:</strong>
-        ServiceNow, BMC Remedy, JIRA, Confluence, Jenkins, Git, Maven, Python, Python Scripting, Selenium WebDriver, Selenium Automation, GS Tools
-      </p>
-      <p class="skill-row">
-        <strong>Batch and Data Operations:</strong>
-        Informatica ETL, ETL Batch Monitoring, Application Batch Monitoring, Cross-System Batch Monitoring, Batch Hold and Release Coordination, Data Flow Monitoring, Workflow Monitoring, SAP Interface Monitoring, Downstream Interface Coordination, Batch Failure Investigation
-      </p>
-      <p class="skill-row">
-        <strong>Professional Practices:</strong>
-        ITIL Practices, Agile Fundamentals, Scrum Fundamentals, Incident Response, Incident Management, Problem Management, Change Management, Operational Governance, Production Stability Support, Release Governance Awareness, Knowledge Management, Continuous Improvement
+        ServiceNow, BMC Remedy, JIRA, Confluence, Jenkins, Git, Maven, Python
       </p>
     </section>
 
@@ -418,12 +427,12 @@
         <p class="role-summary">Led L2 application support for multiple enterprise purchasing applications, covering production and test-environment incident investigation, application and interface-impact assessment, batch monitoring, release support, environment validation, stakeholder coordination, knowledge transition, and operational automation.
 </p>
         <ul>
-          <li>Lead L2 application support for multiple enterprise applications and provide structured triage and service-restoration support.</li>
-          <li>Investigate production and test-environment incidents, assess business and interface impact, and analyze application logs, workflows, and dependent-system behavior.</li>
-          <li>Coordinate issue resolution with development teams, vendors, interface owners, and subject matter experts.</li>
-          <li>Manage 20+ application-related Informatica ETL batches and support monitoring of 40+ cross-system batches connecting SAP and downstream interface teams.</li>
-          <li>Support releases through impact review, deployment coordination, environment validation, customer communication, workflow follow-up, and service-level tracking.</li>
-          <li>Lead end-to-end knowledge transition of supported applications and operational processes to the receiving organization.</li>
+          <li>Led L2 application support for multiple enterprise applications and provided structured triage and service-restoration support.</li>
+          <li>Investigated production and test-environment incidents, assess business and interface impact, and analyze application logs, workflows, and dependent-system behavior.</li>
+          <li>Coordinated issue resolution with development teams, vendors, interface owners, and subject matter experts.</li>
+          <li>Managed 20+ application-related Informatica ETL batches and support monitoring of 40+ cross-system batches connecting SAP and downstream interface teams.</li>
+          <li>Supported releases through impact review, deployment coordination, environment validation, customer communication, workflow follow-up, and service-level tracking.</li>
+          <li>Led end-to-end knowledge transition of supported applications and operational processes to the receiving organization.</li>
         </ul>
       </article>
       <article class="role">
@@ -437,12 +446,12 @@
         <p class="role-summary">Provided L2 application support for Java-based BMW quality applications integrated with mainframe and SAP systems. Support activities included incident management, application and interface troubleshooting, deployment support, batch monitoring, environment validation, proactive monitoring, and service restoration.
 </p>
         <ul>
-          <li>Provide L2 application support across multiple BMW quality applications.</li>
-          <li>Manage incidents in BMC Remedy and investigate application, batch, and interface failures.</li>
-          <li>Coordinate escalations and maintain customer communications through issue resolution.</li>
-          <li>Support Java-based applications integrated with mainframe and SAP systems.</li>
-          <li>Perform operational troubleshooting, deployment support, interface analysis, batch monitoring, environment validation, root-cause analysis support, and service restoration.</li>
-          <li>Perform proactive application and infrastructure monitoring using Nagios and Grafana.</li>
+          <li>Provided L2 application support across multiple BMW quality applications.</li>
+          <li>Managed incidents in BMC Remedy and investigated application, batch, and interface failures.</li>
+          <li>Coordinated escalations and maintained customer communications through issue resolution.</li>
+          <li>Supported Java-based applications integrated with mainframe and SAP systems.</li>
+          <li>Performed operational troubleshooting, deployment support, interface analysis, batch monitoring, environment validation, root-cause analysis support, and service restoration.</li>
+          <li>Performed proactive application and infrastructure monitoring using Nagios and Grafana.</li>
         </ul>
       </article>
       <article class="role">
@@ -456,11 +465,11 @@
         <p class="role-summary">Supported global requester-ticket and order-management workflows for EMEA, APJ, and AMS regions using Salesforce and Oracle R12. Contributed to process documentation, user guidance, team training, performance tracking, and operational improvement.
 </p>
         <ul>
-          <li>Resolve requester tickets through Salesforce.</li>
-          <li>Execute IBOT, LAR, and LRR order-management workflows for EMEA, APJ, and AMS regions using Oracle R12.</li>
-          <li>Create process documentation and user manuals.</li>
-          <li>Train new team members on operational workflows.</li>
-          <li>Implement process-performance tracking.</li>
+          <li>Resolved requester tickets through Salesforce.</li>
+          <li>Executed IBOT, LAR, and LRR order-management workflows for EMEA, APJ, and AMS regions using Oracle R12.</li>
+          <li>Created process documentation and user manuals.</li>
+          <li>Trained new team members on operational workflows.</li>
+          <li>Implemented process-performance tracking.</li>
         </ul>
       </article>
     </section>
@@ -481,25 +490,6 @@
       </ul>
     </section>
 
-    <section aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects and Automation</h2>
-      <article class="project">
-        <h3>Python Build and Validation Automation</h3>
-        <p class="project-line">Professional Automation Initiative</p>
-        <p>Python-based automation developed to streamline build and validation activities, reduce repetitive manual effort, and improve operational repeatability.
-</p>
-        <p><strong>Outcome:</strong> 60% reduction in manual effort</p>
-        <p class="technology-line"><strong>Technologies:</strong> Python, Build Automation, Validation Automation, Operational Automation</p>
-      </article>
-      <article class="project">
-        <h3>Selenium Operational Automation</h3>
-        <p class="project-line">Professional Automation Initiative</p>
-        <p>Selenium WebDriver automation developed for repetitive reporting and operational checks.
-</p>
-        <p><strong>Outcome:</strong> 30% reduction in human intervention</p>
-        <p class="technology-line"><strong>Technologies:</strong> Selenium WebDriver, Selenium Automation, Reporting Automation, Process Automation</p>
-      </article>
-    </section>
 
     <section aria-labelledby="tools-heading">
       <h2 id="tools-heading">Tools and Technologies</h2>
@@ -510,7 +500,8 @@
       <h2 id="development-heading">Professional Development</h2>
       <p class="development-row">
         <strong>Training:</strong>
-ITIL Foundation (Training Completed); Agile and Scrum Fundamentals (Training Completed); AWS Cloud Practitioner (Training Completed)      </p>
+ITIL Foundation; Agile and Scrum Fundamentals; AWS Cloud Practitioner
+      </p>
       <p class="development-row">
         <strong>Working Knowledge:</strong>
 Lean and Six Sigma (Working Knowledge)      </p>

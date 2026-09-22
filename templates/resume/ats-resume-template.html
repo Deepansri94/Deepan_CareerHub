@@ -308,6 +308,21 @@
     .docx-btn:hover {
       background: #1d4ed8;
     }
+
+    #education-heading {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .education-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    section[aria-labelledby="education-heading"] {
+      break-before: avoid;
+      page-break-before: avoid;
+    }
   </style>
 </head>
 
@@ -318,18 +333,43 @@
     <div class="contact-line" aria-label="Contact information">
 
       {% if public_display.get('show_email', true) and profile.contact.get('email') %}
-      <span><a href="mailto:{{ profile.contact.email }}">{{ profile.contact.email }}</a></span>
+      <span>
+        <a href="mailto:{{ profile.contact.email }}">
+          {{ profile.contact.email }}
+        </a>
+      </span>
       {% endif %}
-      {% if public_display.get('show_linkedin', true) and profile.contact.get('linkedin') %}
-      <span>{{ profile.contact.linkedin | replace('https://www.','') | replace('https://','') | replace('http://','') }}</span>
-      {% endif %}
-      {% if public_display.get('show_github', true) and profile.contact.get('github') %}
-      <span>{{ profile.contact.github | replace('https://','') | replace('http://','') }}</span>
 
+      {% if public_display.get('show_linkedin', true) and profile.contact.get('linkedin') %}
+      <span>
+        <a href="{{ profile.contact.linkedin | trim }}" target="_blank" rel="noopener noreferrer">
+          {{ profile.contact.linkedin
+          | trim
+          | replace('https://www.', '')
+          | replace('https://', '')
+          | replace('http://', '')
+          | trim('/')
+          }}
+        </a>
+
+      </span>
       {% endif %}
-      {% if profile.location.get('display_publicly', false) and profile.location.get('value') %}
-      <span>{{ profile.location.value }}</span>
+
+      {% if public_display.get('show_github', true) and profile.contact.get('github') %}
+      <span>
+        <a href="{{ profile.contact.github | trim }}" target="_blank" rel="noopener noreferrer">
+          {{ profile.contact.github
+          | trim
+          | replace('https://www.', '')
+          | replace('https://', '')
+          | replace('http://', '')
+          | trim('/')
+          }}
+        </a>
+
+      </span>
       {% endif %}
+
     </div>
     <div class="resume-actions">
       <button class="download-btn pdf-btn" onclick="downloadPDF()">
@@ -397,7 +437,10 @@
     </section>
     {% endif %}
 
-    {% if projects %}
+    {# Projects section intentionally omitted from resume output.
+    Automation outcomes are covered in Selected Achievements.
+    Re-enable with --include-personal-projects if needed. #}
+    {% if projects and (projects | selectattr('type', 'equalto', 'Personal Product') | list) %}
     <section aria-labelledby="projects-heading">
       <h2 id="projects-heading">Projects and Automation</h2>
       {% for project in projects %}
@@ -434,8 +477,8 @@
       {% if training %}
       <p class="development-row">
         <strong>Training:</strong>
-        {% for item in training %}{{ item.name }}{% if item.get('status') %} ({{ item.status }}){% endif %}{% if not
-        loop.last %}; {% endif %}{% endfor %}
+       {% for item in training %}{{ item.name }}{% if not loop.last %}; {% endif %}{% endfor %}
+
       </p>
       {% endif %}
       {% if working_knowledge %}
