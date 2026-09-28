@@ -57,7 +57,7 @@ projects:
     hero_image:
       file: assets/projects/vaultone-logo.png
 
-    public_url: null
+    public_url: https://deepansri94.github.io/VaultOne-Android/
 
   - id: python-build-validation-automation
 
@@ -132,4 +132,4 @@ projects:
 
     featured: false
 
-    public_url: null
+    public_url: https://deepansri94.github.io/Deepan_CareerHub/
